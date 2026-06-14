@@ -11,7 +11,7 @@ This project systematically detects and analyzes political question-answer (QA) 
 
 We compare multiple model architectures — from statistical baselines to LLMs — and perform reasoning chain analysis to identify failure patterns.
 
-**Dataset**: [QEvasion on HuggingFace](https://huggingface.co/datasets/QEvasion)
+**Dataset**: The dataset is from: Thomas et al ([QEvasion on HuggingFace](https://huggingface.co/datasets/QEvasion))
 
 ---
 
@@ -43,8 +43,6 @@ This study expands existing methods for predicting and analyzing question-answer
 ---
 
 ## Project Structure
-
-```bash
 WordSalad/
 ├── Deepseek_master.py               # DeepSeek LLM inference (zero-shot & few-shot)
 ├── ModernBert_master.py             # ModernBERT model inference
@@ -56,9 +54,31 @@ WordSalad/
 ├── test_set_me.csv                  # Test set (QA pairs + labels)
 └── README.md
 
+## Requirements
+
+- Python 3.10 or higher
+- Poetry (for dependency management)
+
+Tested on: Ubuntu 22.04, CUDA 12.1 (for GPU inference)
+
+**Quick start**:
+
+```bash
+poetry install
+poetry shell
+python tf_idf_master.py          # baseline
+python ModernBert_master.py      # encoder
+python Deepseek_master.py        # LLM
+python multiagrnt_master.py      # role-playing
+jupyter notebook final_figure_making.ipynb   # results
+Dependencies: Poetry (Python 3.10+)
+
+**Data**: `running_data/` is included in the repository (pre-filtered). 
+If you want to regenerate it, run `bi-encoder_master.ipynb`.
+
 ## Citation
 
-If you use this code or the QEvasion dataset, please cite the original paper:
+Please cite the original paper:
 
 ```bibtex
 @inproceedings{thomas-etal-2024-never,
