@@ -43,6 +43,8 @@ This study expands existing methods for predicting and analyzing question-answer
 ---
 
 ## Project Structure
+
+```bash
 WordSalad/
 ├── Deepseek_master.py               # DeepSeek LLM inference (zero-shot & few-shot)
 ├── ModernBert_master.py             # ModernBERT model inference
