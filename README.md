@@ -55,6 +55,7 @@ WordSalad/
 ├── final_figure_making.ipynb        # Visualization & result aggregation
 ├── test_set_me.csv                  # Test set (QA pairs + labels)
 └── README.md
+```
 
 ## Requirements
 
