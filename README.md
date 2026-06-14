@@ -75,6 +75,7 @@ python Deepseek_master.py        # LLM
 python multiagrnt_master.py      # role-playing
 jupyter notebook final_figure_making.ipynb   # results
 Dependencies: Poetry (Python 3.10+)
+```
 
 **Data**: `running_data/` is included in the repository (pre-filtered). 
 If you want to regenerate it, run `bi-encoder_master.ipynb`.
