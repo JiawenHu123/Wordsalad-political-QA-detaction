@@ -11,7 +11,7 @@ This project systematically detects and analyzes political question-answer (QA) 
 
 We compare multiple model architectures — from statistical baselines to LLMs — and perform reasoning chain analysis to identify failure patterns.
 
-📦 **Dataset**: [QEvasion on HuggingFace](https://huggingface.co/datasets/QEvasion)
+**Dataset**: [QEvasion on HuggingFace](https://huggingface.co/datasets/QEvasion)
 
 ---
 
