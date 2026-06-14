@@ -55,3 +55,22 @@ WordSalad/
 ├── final_figure_making.ipynb        # Visualization & result aggregation
 ├── test_set_me.csv                  # Test set (QA pairs + labels)
 └── README.md
+
+## Citation
+
+If you use this code or the QEvasion dataset, please cite the original paper:
+
+```bibtex
+@inproceedings{thomas-etal-2024-never,
+    title = "``{I} Never Said That'': A dataset, taxonomy and baselines on response clarity classification",
+    author = "Thomas, Konstantinos and Filandrianos, Giorgos and Lymperaiou, Maria and Zerva, Chrysoula and Stamou, Giorgos",
+    editor = "Al-Onaizan, Yaser and Bansal, Mohit and Chen, Yun-Nung",
+    booktitle = "Findings of the Association for Computational Linguistics: EMNLP 2024",
+    month = nov,
+    year = "2024",
+    address = "Miami, Florida, USA",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2024.findings-emnlp.300/",
+    doi = "10.18653/v1/2024.findings-emnlp.300",
+    pages = "5204--5233"
+}
